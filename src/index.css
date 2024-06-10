@@ -1,0 +1,132 @@
+/* ESTE APP.CSS ES LA QUE CAMBIA EL DISEÑO DE LA PAGINA PRINCIPAL */
+/* ESTE APP.CSS ES LA QUE CAMBIA EL DISEÑO DE LAS CARTAS DE COMIDAS */
+/* ESTE APP.CSS ES LA QUE CAMBIA EL DISEÑO DE LAS CARTAS DE COMIDAS */
+/* ESTE APP.CSS ES LA QUE CAMBIA EL DISEÑO DE LAS CARTAS DE COMIDAS */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #40343d;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  justify-content: center;
+}
+
+.category-buttons {
+  text-align: center;
+}
+
+.category-buttons button {
+  margin: 5px;
+}
+
+.card {
+  transition: transform 0.3s;
+  height: 400px; /* Altura fija para todas las tarjetas */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.category-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #543310; /* Color de fondo café */
+  color: #F8F4E1; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 20px; /* Bordes redondeados */
+  display: flex; /* Alineación de contenido */
+  align-items: center; /* Alineación de contenido */
+}
+.category-button img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+/* index.css */
+
+/* En tu archivo App.css */
+.title {
+  font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la fuente que prefieras */
+  font-size: 3em; /* Tamaño de fuente grande */
+  color: #543310; /* Color de fuente */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+  transform: skew(-10deg, -10deg); /* Inclina el texto */
+}
+
+
+/* Dentro de src/index.css */
+
+.search-input {
+  background-color: #543310; /* Color de fondo de la barra de búsqueda */
+  color: #F8F4E1; /* Color del texto de la barra de búsqueda */
+  
+}
+
+.search-input::placeholder {
+  color: #F8F4E1; /* Color del texto de marcador de posición en la barra de búsqueda */
+}
+
+.btn-primary {
+  background-color: #543310; /* Color de fondo del botón "Buscar" */
+  border-color: #543310; /* Color del borde del botón "Buscar" */
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #43270a; /* Color de fondo del botón "Buscar" al pasar el ratón por encima */
+  border-color: #43270a; /* Color del borde del botón "Buscar" al pasar el ratón por encima */
+  
+}
+
+.btn-secondary {
+  background-color: #543310; /* Color de fondo del botón "Limpiar" */
+  border-color: #543310; /* Color del borde del botón "Limpiar" */
+  border-radius: 20px;
+}
+
+.btn-secondary:hover {
+  background-color: #43270a; /* Color de fondo del botón "Limpiar" al pasar el ratón por encima */
+  border-color: #43270a; /* Color del borde del botón "Limpiar" al pasar el ratón por encima */
+}
+
+.with-margin {
+  margin-right: 5px; /* Ajusta el margen derecho según sea necesario */
+}
+
+.container {
+  background-color: #F5F5DC;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #F8F4E1; /* Fondo de las tarjetas */
+  border: 1px solid #543310; /* Borde de las tarjetas */
+}
+
+.card-body {
+  overflow: hidden; /* Oculta el contenido que sobresale de la tarjeta */
+}
+
+.card-title {
+  white-space: nowrap; /* Evita que el título de la tarjeta se divida en varias líneas */
+  overflow: hidden; /* Oculta cualquier texto que no quepa en la tarjeta */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al final del texto que se corta */
+}
+
+#root {
+  background-color: #F5F5DC; /* Color de fondo que contrasta */
+}
